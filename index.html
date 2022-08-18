@@ -6,16 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackjack</title>
     <link href="index.css" rel="stylesheet">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"></head>
+
 <body>
     <h1>Blackjack</h1>
+
     <p id="message-el">Want to play a round?</p>
-    <p>Cards:</p>
-    <p>Sum:</p>
+
+    <p id="cards-el">Cards:</p>
+
+    <p id="sum-el">Sum:</p>
+
+
+    <button onclick="startGame()">START GAME</button>
+    <button onclick="newCard()">NEW CARD</button>
+
+    <p id="player-el"></p>
+
+
     <script src="script.js"></script>
 </body>
 </html>
